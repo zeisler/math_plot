@@ -83,7 +83,7 @@ angular.module('mathPlotApp')
            var message = '(' + mousePos.x + ',' + mousePos.y + ')';
             writeMessage(canvas, message);
             ctx.beginPath();
-            ctx.arc(mousePos.x, yLine, 1,0,Math.PI*2,true);
+            ctx.arc(mousePos.x, yLine, 2,0,Math.PI*2,true);
             ctx.closePath();
             ctx.fillStyle = 'green';
             ctx.fill();
